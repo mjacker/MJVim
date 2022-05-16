@@ -5,5 +5,9 @@
 #### Keys
 `h: Move to the lelft.`
 `j: move down.`
-`k: move up`
-`l: move right`
+`k: move up.`
+`l: move right.`
+`0: move to beginning of line.`
+`$: move to end of line.`
+`gg: jump cursor to the first line.`
+`G: jump cursor to the last line.`
