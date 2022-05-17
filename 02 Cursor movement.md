@@ -11,3 +11,5 @@
 `$: move to end of line.`
 `gg: jump cursor to the first line.`
 `G: jump cursor to the last line.`
+`{: jump one block upper.`
+`}: jump one block down.`
