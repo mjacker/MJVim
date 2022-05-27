@@ -13,3 +13,5 @@
 `G: jump cursor to the last line.`
 `{: jump one block upper.`
 `}: jump one block down.`
+`^: move the cursor to the start of the current line.`
+`$: move the cursor to the end of the current line.`
