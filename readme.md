@@ -7,3 +7,4 @@ This repository store my knowledge about Vim editor.
 * [02 Cursor movement.](/02%20Cursor%20movement.md)
 * [03 Editing.md](/03%20Editing.md)
 * [04 Split Vim Screen](/04%20Split%20Screen.md)
+* [05 Find and Replace](/05%20Search%20and%20reolace.md)
