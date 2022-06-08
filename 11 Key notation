@@ -1,0 +1,13 @@
+### Key Notation
+`help key-notation`: Help key notation.
+
+---
+notation	meaning				equivalent	decimal	value(s)
+:e
+xplore
+:q
+<CR>		carriage return	CTRL-M		13			*carriage-return*
+<Return>	same as <CR>									*<Return>*
+<Enter>	same as <CR>									*<Enter>*
+
+
