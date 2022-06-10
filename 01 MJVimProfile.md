@@ -16,3 +16,6 @@ In this file I just save my custom settings on a vim environment.
 	set tabstop=3
 	set softtabstop3
 	set shiftwidth=3
+
+### Set to always let some lines after your cursor.
+	set schrolloff=10
