@@ -1,0 +1,4 @@
+*.png
+/08 Explorer
+sample.cpp
+.gitignore
