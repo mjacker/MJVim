@@ -19,3 +19,7 @@ In this file I just save my custom settings on a vim environment.
 
 ### Set to always let some lines after your cursor.
 	set schrolloff=10
+
+### Show hidded characters
+#set list
+#set nolist
