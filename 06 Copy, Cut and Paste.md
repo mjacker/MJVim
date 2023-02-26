@@ -18,3 +18,15 @@
 	- p - paste in next line.
 	- P - paste incurrent line.
 
+
+--- 
+### # Copy to windows clipboard
+	- Enter to visual mode with `v`.
+	- Select text.
+	- Copy with `+y` or `*y`
+
+### # Paste from windows clipboard to vim
+	- Paste with `+p` or `*p`
+
+
+
