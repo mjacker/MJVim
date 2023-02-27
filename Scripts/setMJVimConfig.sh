@@ -9,7 +9,28 @@ cd ~
 # Check if .vimrc is aready created.
 FILE=~/.vimrc
 if test -f "$FILE"; then
-		echo "$FILE exists."
+	echo "$FILE already exists! can't set custom profile."
 else
 		echo "$FILE does not exists."
+		sleep 1
+		echo "Creating .vimrc file..."
+		touch ~/.vimrc
+		sleep 2
+		if test -f "$FILE"; then
+			echo "$FILE created successfully."
+				# If file created setting vim configs.
+				if test -f "$FILE"; then
+					echo "Applying config to local .vimrc file..."
+					echo "syntax on" >> ~/.vimrc
+					echo "set number" >> ~/.vimrc
+					echo "set tabstop=3" >> ~/.vimrc
+					echo "set softtabstop=3" >> ~/.vimrc
+					echo "set shiftwidth=3" >> ~/.vimrc
+					sleep 1
+					echo "Applied successfully."
+				fi
+		else
+			echo "$FILE could not be created."
+		fi
 fi
+
