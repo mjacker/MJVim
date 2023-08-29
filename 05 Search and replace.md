@@ -17,3 +17,11 @@
 		\>
 		/j: 	replace with letter j
 		/g: everywhre in the line.
+
+# how to search/replace special chars?
+If you want to quickly select a rare character everywhere and replace it:
+1. isolate one strange character adding a space before and after it
+2. Use the `*` command to search all ocurrences under the cursor.
+3. if you have `set hlsearch` you will be able to see it.
+4. replace last searched item by something else, globally:
+`:%s//something else/

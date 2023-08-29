@@ -16,9 +16,15 @@
 - `^: move the cursor to the start of the current line.`
 - `$: move the cursor to the end of the current line.`
 
+- `H`: Move to the highest point in the viewport.
+- `M`: Move to the middle of the viewport
+- `L`: Move to the lowest point in the viewport.
+
 #### Screen Positionning
-- `control + u`: move up.
-- `control + d`: move down.
+- `control + u`: Scroll up by half a page. 
+- `control + d`: Scroll down by half a page..
 
 - `control + f`: move forward.
 - `control + b`: move backwar.
+
+

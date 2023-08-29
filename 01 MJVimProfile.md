@@ -23,3 +23,20 @@ In this file I just save my custom settings on a vim environment.
 ### Show hidded characters
 #set list
 #set nolist
+
+## Reloading current file
+	set autoread
+
+## # Testting, setting different font to let vim display chinese character correctly
+- Option 1:
+`set guifont=*`
+or
+`set guifontwide=*`
+
+- Option 2:
+```
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8	// this with
+set encoding=utf-8		// this are working.
+```
+<-- 你好,我是巴拉圭人。!-->
