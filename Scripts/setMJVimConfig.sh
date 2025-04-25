@@ -29,6 +29,9 @@ else
 					echo "set softtabstop=3" >> ~/.vimrc
 					echo "set shiftwidth=3" >> ~/.vimrc
 					echo "set backspace=indent,eol,start" >> ~/.vimrc
+					echo "set incsearch" >> ~/.vimrc
+					echo "set hlsearch" >> ~/.vimrc
+					ehco "set wildmenu" >> ~/.wimrc
 					sleep 1
 					echo "Applied successfully."
 				fi
